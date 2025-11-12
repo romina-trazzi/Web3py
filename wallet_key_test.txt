@@ -1,0 +1,9 @@
+1. Public address 0xa5EFE8C042A559F13D975293af7D4CCe8a36b2A2
+2. Private key 0x4f98af4cbffe4153c29359b10283757aa0303bb1bcf914c2086597284d62dd6d
+
+3. Hash prima transazione: 0xdcea2963c2095b8cca1f4c571ee497038276085dd2a92aacf9cf02fa975e06d3
+
+Guide: 
+
+1. https://www.quicknode.com/guides/ethereum-development/transactions/how-to-fetch-transaction-history-on-ethereum-using-web3py
+2. https://www.quicknode.com/guides/ethereum-development/transactions/how-to-send-transactions-on-ethereum-using-python#what-you-will-do
