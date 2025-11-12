@@ -4,14 +4,15 @@ import pickle
 # instantiate a web3 remote provider
 w3 = Web3(HTTPProvider('https://1rpc.io/sepolia'))
 
+# filter through blocks and look for transactions involving this address
+blockchain_address = "0xa5EFE8C042A559F13D975293af7D4CCe8a36b2A2"
+
 # request the latest block number
 ending_blocknumber = w3.eth.block_number
 
 # latest block number minus 100 blocks
 starting_blocknumber = ending_blocknumber - 100 
 
-# filter through blocks and look for transactions involving this address
-blockchain_address = "0xa5EFE8C042A559F13D975293af7D4CCe8a36b2A2"
 
 # create an empty dictionary we will add transaction data to
 tx_dictionary = {}

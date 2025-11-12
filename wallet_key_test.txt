@@ -6,4 +6,9 @@
 Guide: 
 
 1. https://www.quicknode.com/guides/ethereum-development/transactions/how-to-fetch-transaction-history-on-ethereum-using-web3py
-2. https://www.quicknode.com/guides/ethereum-development/transactions/how-to-send-transactions-on-ethereum-using-python#what-you-will-do
+2. https://www.quicknode.com/guides/ethereum-development/transactions/how-to-send-transactions-on-ethereum-using-pythonS
+3. https://www.quicknode.com/guides/ethereum-development/transactions/measure-transaction-latency-with-txping
+
+Portafoglio dove inserire la chiave pubblica di Ethereum
+
+https://cloud.google.com/application/web3/faucet/ethereum/sepolia
