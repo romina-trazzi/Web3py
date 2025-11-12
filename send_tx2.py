@@ -9,7 +9,6 @@ sender_address = '0xa5EFE8C042A559F13D975293af7D4CCe8a36b2A2'
 recipient_address = '0x89c6c7aaE769a189BdBACf965705FF92669b606e'
 
 # Set private key for the sender's account. 
-# DO NOT SHARE YOUR PRIVATE KEY.
 private_key = '0x4f98af4cbffe4153c29359b10283757aa0303bb1bcf914c2086597284d62dd6d'
 
 # Fetch balance data
@@ -29,7 +28,7 @@ max_fee_per_gas = (5 * base_fee_per_gas) + max_priority_fee_per_gas # Maximum am
 transaction_params = {
     'from': sender_address,
     'to': recipient_address,
-    'value': web3.to_wei(0.01, 'ether'),  # Transaction value (0.1 Ether in this example)
+    'value': web3.to_wei(0.00, 'ether'),  # Transaction value (0.1 Ether in this example)
     'nonce': web3.eth.get_transaction_count(sender_address),
     'gas': 21000,  # Gas limit for the transaction
     'maxFeePerGas': max_fee_per_gas, # Maximum amount you’re willing to pay 
