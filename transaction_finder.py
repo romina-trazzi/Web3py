@@ -13,7 +13,6 @@ ending_blocknumber = w3.eth.block_number
 # latest block number minus 100 blocks
 starting_blocknumber = ending_blocknumber - 100 
 
-
 # create an empty dictionary we will add transaction data to
 tx_dictionary = {}
 
